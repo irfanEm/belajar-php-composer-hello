@@ -12,7 +12,7 @@ class Customer {
         $this->name = $name;
     }
 
-    public function Hay(string $name): string
+    public function Hay(string $name = "Anonymous"): string
     {
         return "Hay $name, Namaku $this->name, jangan panggila aku anak kecil ya..";
     }
